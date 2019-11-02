@@ -1,4 +1,4 @@
-# SKU110K-benchmark
+# SKU110K-evaluation
 
 Evaluation code for SKU110K dataset. Forked from [cocoapi](https://github.com/cocodataset/cocoapi) repository.
 
