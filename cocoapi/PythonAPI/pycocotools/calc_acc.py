@@ -67,7 +67,10 @@ if __name__ == "__main__":
 
 	# running evaluation
 	cocoEval = COCOeval(gt_coco_format, dt_coco_format, iouType='bbox')
-	cocoEval.params.imgIds  = range(0,100)
+	
+	# if you want to evaluate on a subset
+	# cocoEval.params.imgIds  = range(0,100)
+	
 	cocoEval.evaluate()
 	cocoEval.accumulate()
 	cocoEval.summarize()
