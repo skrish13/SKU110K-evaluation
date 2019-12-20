@@ -14,14 +14,10 @@ Evaluation code for SKU110K dataset. Forked from [cocoapi](https://github.com/co
 |Goldman et al [2]| 0.492 | 0.556 |0.554  |
 |Our method [3]| 0.685 |0.755 | 0.756 |
 
-### Note
-
-The outputs from [3] can be downloaded from this [link](https://drive.google.com/file/d/1qOJHip8lfTXn8Yb-mLWaFcnqkHIsZR1e/view?usp=sharing)
-
 ### References
 
 ```
 [1] https://github.com/eg4000/SKU110K_CVPR19
 [2] https://arxiv.org/abs/1904.00853
-[3] Will be released soon
+[3] https://github.com/ParallelDots/generic-sku-detection-benchmark
 ```
