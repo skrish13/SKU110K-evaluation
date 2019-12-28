@@ -12,7 +12,7 @@ Evaluation code for SKU110K dataset. Forked from [cocoapi](https://github.com/co
 | Method  | AP | AP<sup>.75</sup> | AR<sup>300</sup>  |
 | ----- | ----- | ---- | ----- |
 |Goldman et al [2]| 0.492 | 0.556 |0.554  |
-|Our method [3]| 0.685 |0.755 | 0.756 |
+|Our method [3]| 0.186 |0.052 | 0.264 |
 
 ### References
 
