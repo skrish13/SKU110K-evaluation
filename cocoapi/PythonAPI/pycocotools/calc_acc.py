@@ -29,7 +29,7 @@ def get_gt_json():
 	    
 	    entry['image_id'] = imgIds.index(row['image_name'])
 	    entry['id'] = annotid
-	    entry['bbox'] = [row['x1'], row['y1'], row['x2'], row['y2']]
+	    entry['bbox'] = [row['x1'], row['y1'], row['x2']-row['x1'], row['y2']-row['y1']]
 	    entry['area'] = (row['x2']-row['x1']) * (row['y2']-row['y1'])
 	    
 	    gt_json.append(entry)
@@ -49,7 +49,7 @@ def get_dt_json(pred_path = '../../../predictions/output_singlescale.csv'):
 
 		entry['image_id'] = imgIds.index(row['image_name'])
 		entry['id'] = detid
-		entry['bbox'] = [row['x1'], row['y1'], row['x2'], row['y2']]
+		entry['bbox'] = [row['x1'], row['y1'], row['x2']-row['x1'], row['y2']-row['y1']]
 		entry['area'] = (row['x2']-row['x1']) * (row['y2']-row['y1'])
 		entry['score'] = row['score']
 
